@@ -1,0 +1,9 @@
+com\seven\lotterydoamin\strategy\model\aggregates\StrategyRich.class
+com\seven\lotterydoamin\strategy\model\vo\StrategyBriefVO.class
+com\seven\lotterydoamin\LotteryDoaminApplication.class
+com\seven\lotterydoamin\strategy\model\vo\AwardBriefVO.class
+com\seven\lotterydoamin\strategy\model\vo\AwardAwardVO.class
+com\seven\lotterydoamin\strategy\model\res\DrawResult.class
+com\seven\lotterydoamin\strategy\model\vo\StrategyDetailBriefVO.class
+com\seven\lotterydoamin\strategy\model\vo\AwardRateVO.class
+com\seven\lotterydoamin\strategy\model\req\DrawReq.class
