@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.seven</groupId>
-    <artifactId>lottery-4251-seven</artifactId>
+    <artifactId>lottery</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>lottery-4251-seven</name>
-    <description>lottery-4251-seven</description>
+    <name>lottery</name>
+    <description>lottery</description>
     <packaging>pom</packaging>
 
     <modules>
