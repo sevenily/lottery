@@ -28,7 +28,7 @@ hs_err_pid*
 *.iws
 *.iml
 *.ipr
-.idea
+.idea/libraries/
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
