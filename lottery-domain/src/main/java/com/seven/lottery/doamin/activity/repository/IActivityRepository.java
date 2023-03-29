@@ -6,6 +6,7 @@ import com.seven.lottery.doamin.activity.model.vo.AwardVO;
 import com.seven.lottery.doamin.activity.model.vo.StrategyDetailVO;
 import com.seven.lottery.doamin.activity.model.vo.StrategyVO;
 
+import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 
 /**
