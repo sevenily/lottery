@@ -55,7 +55,7 @@ public class UserStrategyExport {
     /**
      * 发奖状态
      */
-    private Integer granState;
+    private Integer grantState;
 
     /**
      * 发奖ID
@@ -156,12 +156,12 @@ public class UserStrategyExport {
         this.grantDate = grantDate;
     }
 
-    public Integer getGranState() {
-        return granState;
+    public Integer getGrantState() {
+        return grantState;
     }
 
-    public void setGranState(Integer granState) {
-        this.granState = granState;
+    public void setGrantState(Integer grantState) {
+        this.grantState = grantState;
     }
 
     public String getAwardId() {

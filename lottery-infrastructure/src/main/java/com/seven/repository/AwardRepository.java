@@ -1,6 +1,6 @@
 package com.seven.repository;
 
-import com.seven.lottery.doamin.award.repository.IAwardRepository;
+import com.seven.lottery.domain.award.repository.IAwardRepository;
 import org.springframework.stereotype.Component;
 
 /**

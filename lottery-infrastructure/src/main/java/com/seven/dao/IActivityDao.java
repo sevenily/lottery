@@ -1,6 +1,6 @@
 package com.seven.dao;
 
-import com.seven.lottery.doamin.activity.model.vo.AlterStateVo;
+import com.seven.lottery.domain.activity.model.vo.AlterStateVo;
 import com.seven.po.Activity;
 import org.apache.ibatis.annotations.Mapper;
 

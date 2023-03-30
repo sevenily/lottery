@@ -1,5 +1,8 @@
 package com.rpc;
 
+import com.rpc.req.ActivityReq;
+import com.rpc.res.ActivityRes;
+
 /**
  * @ClassName: IActivityBooth
  * @Description: 活动展台
@@ -14,7 +17,7 @@ package com.rpc;
 
 public interface IActivityBooth {
 
-
+    ActivityRes queryActivityById(ActivityReq req);
 
 
 }
