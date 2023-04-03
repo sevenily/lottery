@@ -1,7 +1,6 @@
 server:
   port: 8080
 
-
 # 多数据源路由配置
 mini-db-router:
   jdbc:
@@ -10,25 +9,34 @@ mini-db-router:
       tbCount: 4
       default: db00
       routerKey: uId
-      list: db01, db02
+      list: db01,db02
       db00:
         driver-class-name: com.mysql.jdbc.Driver
         url: jdbc:mysql://127.0.0.1:3306/lottery?useUnicode=true
-        userName: root
+        username: root
         password: java
       db01:
         driver-class-name: com.mysql.jdbc.Driver
         url: jdbc:mysql://127.0.0.1:3306/lottery_01?useUnicode=true
-        userName: root
+        username: root
         password: java
       db02:
         driver-class-name: com.mysql.jdbc.Driver
         url: jdbc:mysql://127.0.0.1:3306/lottery_02?useUnicode=true
-        userName: root
+        username: root
         password: java
+
+
 
 mybatis:
   mapper-locations: classpath:/mybatis/mapper/*.xml
   config-location: classpath:/mybatis/config/mybatis-config.xml
 
+spring:
+  application:
+    name: lottery-interface
+
+dubbo:
+  application:
+    id: lottery-interface
 # Dubbo 广播方式配置，如果调用不稳定可以修改为直连模式：

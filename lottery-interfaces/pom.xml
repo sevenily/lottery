@@ -53,7 +53,8 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.29</version>
+<!--            <version>8.0.29</version>-->
+            <scope>runtime</scope>
         </dependency>
 
         <dependency>
@@ -79,17 +80,6 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>org.apache.dubbo</groupId>
-            <artifactId>dubbo</artifactId>
-            <version>2.7.10</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.dubbo</groupId>
-            <artifactId>dubbo-spring-boot-starter</artifactId>
-            <version>2.7.10</version>
-        </dependency>
 
         <!--业务包-->
         <dependency>
